@@ -10,4 +10,4 @@ const Item =({foodItem})=>{
 };
 
 
-export default Items;
+export default Item ;
