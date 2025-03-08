@@ -1,8 +1,8 @@
-const items =({foodItems})=>{
+const Item =({foodItem})=>{
   return (
     <>
      <li className="list-group-item">
-          {foodItems}
+          {foodItem}
           </li>
     </>
   ); 
@@ -10,4 +10,4 @@ const items =({foodItems})=>{
 };
 
 
-export default items;
+export default Items;

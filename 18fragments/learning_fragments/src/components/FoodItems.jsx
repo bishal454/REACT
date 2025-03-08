@@ -1,15 +1,13 @@
-  import items from "./items";
+  import Item from "./Item";
+  
   const FoodItems =({items})=>{
-
     return (
         <ul className="list-group">
         {items.map((item)=>(
-            <items key ={items} foodItems={item}></items>       
+            <Item key ={item} foodItem={item}></Item>       
          ))}
    </ul>
-// if use are using jsx then the js code must be in curly braces .
-
-    );
+  );
 };
 
 export default  FoodItems;
