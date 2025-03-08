@@ -1,3 +1,5 @@
+
+// this is the component of the react .
 function Random(){
   let number = Math.random()*10;
 
